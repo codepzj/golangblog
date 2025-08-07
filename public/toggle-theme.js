@@ -1,7 +1,7 @@
-const primaryColorScheme = ""; // "light" | "dark"
+const primaryColorScheme = "light"; // "light" | "dark"
 
 // Get theme data from local storage
-const currentTheme = localStorage.getItem("theme");
+const currentTheme = "light";
 
 function getPreferTheme() {
   // return theme value in local storage if it is set

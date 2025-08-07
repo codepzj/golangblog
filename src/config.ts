@@ -5,7 +5,7 @@ export const SITE = {
   desc: "最全面的Go语言中文学习平台,提供高质量的中文教程和社区支持,助力开发者快速掌握Go语言。",
   title: "浩瀚星河",
   ogImage: "og.jpg",
-  lightAndDarkMode: true, // 是否开启暗黑模式
+  lightAndDarkMode: false, // 是否开启暗黑模式
   postPerIndex: 3, // 首页文章数量
   postPerPage: 10, // 分页文章数量
   scheduledPostMargin: 15 * 60 * 1000, // 15分钟
