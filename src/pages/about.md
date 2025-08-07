@@ -24,7 +24,6 @@ title: "About"
       data-input-position="bottom"
       data-theme="light"
       data-lang="zh-CN"
-      data-loading="lazy"
       crossorigin="anonymous"
       async
       data-reactions-enabled="0">
