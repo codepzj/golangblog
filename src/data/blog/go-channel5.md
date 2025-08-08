@@ -3,9 +3,9 @@ title: channel实现简易eventbus
 description: 本文介绍了一个适用于单机模块的 Go 语言事件总线（Eventbus）实现，用于异步事件的发布与订阅。通过 map[string]EventChans 管理事件与多个通道的映射关系，并结合读写锁 sync.RWMutex 保证并发安全，实现了 Subscribe、UnSubscribe、Publish 三个核心方法，展示了如何安全高效地进行事件分发。适合 Go 初学者理解 channel 和并发控制。
 author: 浩瀚星河
 pubDatetime: 2025-08-07T04:01:05.205Z
-modDatetime: 2025-08-07T04:05:51.6Z
+modDatetime: 2025-08-08T06:55:43.565Z
 slug: go-channel5
-featured: true
+featured: false
 tags: [channel]
 ogImage: https://blog-api.golangblog.com/images/1754295609kmHPREpSda.jpg
 ---
